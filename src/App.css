@@ -1,0 +1,46 @@
+#bgImage-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    z-index: 10;
+    opacity: 0.5;
+}
+
+
+.mySwiper {
+    position: relative !important;
+    height: 100px !important;
+}
+
+.swiper-wrapper {
+    margin: 0 40px;
+}
+
+.swiper-button-prev {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    background: #000 !important;
+    z-index: 100 !important;
+    height: 100px !important;
+    width: 40px !important;
+    color: #fff;
+}
+
+.swiper-button-next {
+    position: absolute !important;
+    top: 0 !important;
+    right: 0 !important;
+    background: #000 !important;
+    z-index: 100 !important;
+    height: 100px !important;
+    width: 40px !important;
+    color: #fff;
+}
+
+.bg-image {
+    background: url("./assets/bg/bgimage.jpg");
+}
