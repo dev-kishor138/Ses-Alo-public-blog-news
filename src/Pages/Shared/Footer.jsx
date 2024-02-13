@@ -3,6 +3,8 @@ import logoImage from "../../assets/rater-alo.png";
 import Logo from "../../components/Logo";
 import SocialIcons from "../../components/SocialIcons";
 import InputWithButton from "../../components/InputWithButton";
+import List from "../../components/List";
+import FooterMoreNews from "../../components/FooterMoreNews";
 
 const Footer = () => {
   return (
@@ -17,6 +19,33 @@ const Footer = () => {
             <InputWithButton type="email" placeholder="Enter Your Email">
               Sign Up
             </InputWithButton>
+          </div>
+        </div>
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1  text-white">
+          <div className="col-span-2 grid grid-cols-2">
+            <div className="grid grid-cols-2">
+              <List/>
+              <List/>
+            </div>
+            <div>
+              <h2>Living</h2>
+              <div className="grid grid-cols-2">
+               <List/>
+               <List/>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <h2>More news</h2>
+            <div className="grid grid-cols-1">
+              
+              <FooterMoreNews/>
+              <FooterMoreNews/>
+              <FooterMoreNews/>
+              <FooterMoreNews/>
+              <FooterMoreNews/>
+            </div>
           </div>
         </div>
       </div>
